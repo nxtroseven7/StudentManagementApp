@@ -130,7 +130,7 @@
             button5.TabIndex = 12;
             button5.Text = "Refresh";
             button5.UseVisualStyleBackColor = true;
-
+            button5.Click += button5_Click;
             // 
             // button4
             // 

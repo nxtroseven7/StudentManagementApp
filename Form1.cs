@@ -164,6 +164,19 @@ namespace StudentManagementApp
                 MessageBox.Show("No student found with the first name: " + searchName);
             }
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                // Reloads data.txt into your view
+                Form1_Load(sender, e);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error refreshing data: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 
 }
