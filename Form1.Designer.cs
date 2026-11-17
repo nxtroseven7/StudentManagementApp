@@ -39,6 +39,10 @@
             Column4 = new DataGridViewTextBoxColumn();
             Email = new DataGridViewTextBoxColumn();
             Column5 = new DataGridViewTextBoxColumn();
+            button5 = new Button();
+            button4 = new Button();
+            button3 = new Button();
+            button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -77,6 +81,7 @@
             button1.TabIndex = 3;
             button1.Text = "Search";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // dataGridView1
             // 
@@ -84,7 +89,7 @@
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4, Email, Column5 });
             dataGridView1.Location = new Point(58, 143);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(613, 369);
+            dataGridView1.Size = new Size(644, 369);
             dataGridView1.TabIndex = 4;
             // 
             // Column1
@@ -117,11 +122,55 @@
             Column5.HeaderText = "Email";
             Column5.Name = "Column5";
             // 
+            // button5
+            // 
+            button5.Location = new Point(577, 536);
+            button5.Name = "button5";
+            button5.Size = new Size(90, 38);
+            button5.TabIndex = 12;
+            button5.Text = "Refresh";
+            button5.UseVisualStyleBackColor = true;
+
+            // 
+            // button4
+            // 
+            button4.Location = new Point(404, 536);
+            button4.Name = "button4";
+            button4.Size = new Size(90, 38);
+            button4.TabIndex = 11;
+            button4.Text = "Delete";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
+            // 
+            // button3
+            // 
+            button3.Location = new Point(219, 536);
+            button3.Name = "button3";
+            button3.Size = new Size(90, 38);
+            button3.TabIndex = 10;
+            button3.Text = "Modify";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(58, 536);
+            button2.Name = "button2";
+            button2.Size = new Size(90, 38);
+            button2.TabIndex = 9;
+            button2.Text = "Insert";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(738, 611);
+            Controls.Add(button5);
+            Controls.Add(button4);
+            Controls.Add(button3);
+            Controls.Add(button2);
             Controls.Add(dataGridView1);
             Controls.Add(button1);
             Controls.Add(textBox1);
@@ -148,5 +197,9 @@
         private DataGridViewTextBoxColumn Column4;
         private DataGridViewTextBoxColumn Email;
         private DataGridViewTextBoxColumn Column5;
+        private Button button5;
+        private Button button4;
+        private Button button3;
+        private Button button2;
     }
 }
