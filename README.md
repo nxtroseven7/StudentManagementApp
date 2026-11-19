@@ -8,7 +8,7 @@ A lightweight desktop application built with C# and Windows Forms for managing s
 - **Add New Students**: Opens a dedicated form (`FormInsert`) to append new student entries to the data file.
 - **Edit Existing Records**: Select any row in the grid to open `StudentModify`, pre-filled with that student's details, and overwrite their record in the file.
 - **Delete Records**: Remove selected students from the grid and text file with a confirmation prompt to prevent accidental deletions.
-- **Input Validation**: Enforces strict `dd/MM/yyyy` date formatting before saving changes to keep the data file consistent. 
+- **Input Validation**: Enforces strict `dd/MM/yyyy` date formatting before saving changes to keep the data file consistent.
 
 ## Data Structure
 

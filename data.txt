@@ -4,7 +4,7 @@
 4,Hayat,O,04/11/2005,city 3000 Logts Bach Djerrah Alger,hayat.ouali@ensia.edu.dz
 5,Leila,Ait Aoudia,11/04/2004,city 1000 Logts Belle Vue Alger,leila.aitaoudia@ensia.edu.dz
 6,Farah,Zidani,12/06/2004,city 100 Logts Jolie Vue Alger,farah.zidani@ensia.edu.dz
-7,Nesrine,Oukali,28/07/2004,city 200 Logts Rue Hassiba Alger,nesrine.oukali@ensia.edu.dz
+7vdsvdsvsd,Nesrine,Oukali,28/07/2004,city 200 Logts Rue Hassiba Alger,
 8,Lamisse,Chaabane,15/03/2003,city 301 Logts Belle Court Alger,lamisse.chaabane@ensia.edu.dz
 17,Sabrina,Ben Aissi,23/03/2004,city 2030 Logts Ben Aknoun Alger,
 15,Zahra,Saoudi,2/17/2006,city 190 Logts Bir Khadem Alger,zahra.saoudi@ensia.edu.dz
@@ -12,4 +12,6 @@
 13,Wardia,Khaldi,06/05/2003,city 1024 Logts Sidi Abdellah Alger,wardia.khaldi@ensia.edu.dz
 14,Sabrina,Ben Aissi,23/03/2004,city 2030 Logts Ben Aknoun Alger,sabrina.benaissi@ensia.edu.dz
 ,,,17/11/2026,,
-94446,Samy,Belbachir,17/11/2026,Jsp,nxtro@gmail.com
+67,Samy,Belbachir,17/11/2026,Jsp,
+iii,,,18/11/2026,,
+585,sdfsd,fsafsdfsd,19/11/2007,gfbfdbfd,fewfewfewfew@ensia.edu.dz
